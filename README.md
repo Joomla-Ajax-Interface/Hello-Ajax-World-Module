@@ -1,4 +1,4 @@
-Hello Ajax World-Module
+Hello Ajax World Module
 =======================
 
 A simple module to help demonstrate using com_ajax.
