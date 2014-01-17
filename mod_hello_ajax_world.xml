@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module"
-           version="2.5"
+           version="3.0"
            method="upgrade">
 	<name>Hello Ajax World</name>
 	<creationDate>January 17, 2014</creationDate>
@@ -8,7 +8,7 @@
 	<authorUrl>http://betweenbrain.com</authorUrl>
 	<copyright>Copyright (C) 2013 betweenbrain llc. All rights reserved.</copyright>
 	<license>GNU General Public License version 2, or later.</license>
-	<version>2.5.1</version>
+	<version>3.0.1</version>
 	<description>Hello Ajax World!</description>
 
 	<files>
@@ -16,20 +16,5 @@
 		<filename>helper.php</filename>
 		<folder>tmpl</folder>
 	</files>
-
-	<config>
-		<fields name="params">
-			<fieldset name="basic">
-				<field name="loadJquery"
-				       type="list"
-				       default="1"
-				       label="Load jQuery"
-				       description="">
-					<option value="1">Yes</option>
-					<option value="0">No</option>
-				</field>
-			</fieldset>
-		</fields>
-	</config>
 
 </extension>

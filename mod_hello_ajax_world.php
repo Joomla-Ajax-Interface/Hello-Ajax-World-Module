@@ -15,14 +15,6 @@ require_once __DIR__ . '/helper.php';
 // Instantiate global document object
 $doc = JFactory::getDocument();
 
-$loadJquery = $params->get('loadJquery', 1);
-
-// Load jQuery
-if ($loadJquery == '1')
-{
-	$doc->addScript('//code.jquery.com/jquery-latest.min.js');
-}
-
 $js = <<<JS
 (function ($) {
 	$(document).on('click', 'input[type=submit]', function () {
