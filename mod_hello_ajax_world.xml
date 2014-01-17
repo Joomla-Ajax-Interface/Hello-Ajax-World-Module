@@ -2,29 +2,29 @@
 <install type="module"
          version="2.5"
          method="upgrade">
-    <name>Hello Ajax World</name>
-    <creationDate>January 6, 2014</creationDate>
-    <author>Matt Thomas</author>
-    <authorUrl>http://betweenbrain.com</authorUrl>
-    <copyright>Copyright (C) 2013 betweenbrain llc. All rights reserved.</copyright>
-    <license>GNU General Public License version 2, or later.</license>
-    <version>1.5.1</version>
-    <description>Hello Ajax World!</description>
+	<name>Hello Ajax World</name>
+	<creationDate>January 6, 2014</creationDate>
+	<author>Matt Thomas</author>
+	<authorUrl>http://betweenbrain.com</authorUrl>
+	<copyright>Copyright (C) 2013 betweenbrain llc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2, or later.</license>
+	<version>1.5.1</version>
+	<description>Hello Ajax World!</description>
 
-    <files>
-        <filename module="mod_hello_ajax_world">mod_hello_ajax_world.php</filename>
-        <filename>helper.php</filename>
-        <folder>tmpl</folder>
-    </files>
+	<files>
+		<filename module="mod_hello_ajax_world">mod_hello_ajax_world.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
 
-    <params>
-        <param name="loadJquery"
-               type="list"
-               default="1"
-               label="Load jQuery"
-               description="">
-            <option value="1">Yes</option>
-            <option value="0">No</option>
-        </param>
-    </params>
+	<params>
+		<param name="loadJquery"
+		       type="list"
+		       default="1"
+		       label="Load jQuery"
+		       description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
 </install>
