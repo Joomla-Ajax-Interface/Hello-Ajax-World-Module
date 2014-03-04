@@ -8,12 +8,12 @@
  * Copyright  Copyright (C) 2013 betweenbrain llc. All Rights Reserved.
  * License    GNU General Public License version 2, or later.
  */
-
 class modHelloAjaxWorldHelper
 {
 	public static function getAjax()
 	{
-		$data = JRequest::getVar('data');
+		$input = JFactory::getApplication()->input;
+		$data  = $input->get('data');
 
 		return 'Hello Ajax World, ' . $data . '!';
 	}
